@@ -10,7 +10,7 @@ app.set("Port", 4000);
 app.use(bodyparser.json())
 //MiddleWares
 
-app.use(morgan("combined"))
+app.use(morgan("dev"))
 
 //Routes
 
